@@ -1,0 +1,239 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+  opacity: 1;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.btn-group {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    width: 344px;
+    height: 40px;
+    border: 1px solid #9DA4BC;
+    border-radius: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 6px #FFFFFF29;
+    color: #9A9B9C;
+    text-align: center;
+    cursor: pointer;
+    font: normal normal bold 24px/25px sans-serif;
+    opacity: 1;
+    }
+  
+  .btn-group .button-one {
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #9A9B9C;
+    padding: 4px 40px 10px 40px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    font: normal normal bold 24px/25px sans-serif;
+    opacity: 1;
+  
+  }
+  
+  .btn-group .button-two {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #9A9B9C;
+    padding: 4px 40px 10px 40px;
+    text-align: center;
+    letter-spacing: 0px;
+    cursor: pointer;
+    float: center;
+    font: normal normal bold 24px/25px sans-serif;
+    opacity: 1;
+  
+    
+  }
+  
+  .btn-group .button-three {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 6px #FFFFFF29;
+    color: #9A9B9C;
+    padding: 4px 40px 10px 40px;
+    text-align: center;
+    letter-spacing: 0px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    font: normal normal bold 24px/25px sans-serif;
+    opacity: 1;
+  
+  }
+  
+  
+  .btn-group .button-one:active {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+  
+  }
+  
+  .btn-group .button-two:active {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+  }
+  
+  .btn-group .button-three:active {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+  }
+          
+  .btn-group .button-one:focus {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+        
+  }
+  
+  .btn-group .button-two:focus {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+  }
+  
+  .btn-group .button-three:focus {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 30px/25px sans-serif;
+      font-family: sans-serif;
+      border: 1px #6172B7;
+  }
+
+  /* Subscirbe & One time purchase UI*/
+  .btn-group-two {
+    position: relative;
+    top: 88px;
+    left: 16px;
+    width: 344px;
+    height: 40px;
+    border: 1px solid #9DA4BC;
+    border-radius: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 6px #FFFFFF29;
+    color: #9A9B9C;
+    text-align: center;
+    cursor: pointer;
+    font: normal normal bold 24px/25px sans-serif;
+    opacity: 1;
+    }
+  
+  .btn-group-two .button-onetime {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 6px #FFFFFF29;
+    color: #9A9B9C;
+    padding: 4px 20px 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    font: normal normal bold 16px/25px sans-serif;
+    opacity: 1;
+  
+  }
+  
+  
+  .btn-group-two .button-subscribe {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 6px #FFFFFF29;
+    color: #9A9B9C;
+    padding: 4px 20px 10px 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    font: normal normal bold 16px/25px sans-serif;
+    opacity: 1;
+  
+  }
+  
+  
+  .btn-group-two .button-onetime:active {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 16px/25px sans-serif;
+  
+  }
+  
+  
+  .btn-group-two .button-subscribe:active {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 16px/25px sans-serif;
+  }
+          
+  .btn-group-two .button-onetime:focus {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 16px/25px sans-serif;
+        
+  }
+  
+  
+  .btn-group-two .button-subscribe:focus {
+      background: #3A61A0;
+      color: white;
+      border-radius: 23px;
+      font: normal normal bold 16px/25px sans-serif;
+  }
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

@@ -1,0 +1,239 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+    background-size: cover;
+}
+
+.container-fluid{
+    top: -51px; 
+    left: 0px;
+    width: 375px;
+    height: 1149px;
+    background-color: white;
+    margin: auto;
+    border: 1px;    
+
+}
+
+.background {
+    position: relative;
+    overflow: hidden;
+}
+
+.fixed-background{
+    position: relative;
+    top: -51px; 
+    left: 0px;
+    width: 375px;
+    height: 1149px;
+    overflow: scroll;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.leaves-right{
+    position: absolute;
+    display: block;
+    top: 189px;
+    left: 286px;
+    width: 178px;
+    height: 376px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.leaves-left{
+    position: absolute;
+    display: block;
+    top: 133px;
+    left: -119.588134765625px;
+    width: 198px;
+    height: 388px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+.choose-package{
+    position: absolute;
+    top: 30px;
+    left: 16px;
+    width: 344px;
+    height: 37px;
+}
+
+.us-flag{
+    position: absolute;
+    top: 682px;
+    left: 72px;
+    width: 44px;
+    height: 27px;
+    opacity: 1;
+    }
+
+.made-in-us{
+    position: absolute;
+    top: 721px;
+    left: 32px;
+    width: 121px;
+    height: 18px;
+    opacity: 1;
+}
+
+.door-2-door{
+    position: absolute;
+    top: 679px;
+    left: 246px;
+    width: 74px;
+    height: 60px;
+    opacity: 1;
+
+}
+
+.ninety-days{
+    position: absolute;
+    top: 772px;
+    left: 88px;
+    width: 200px;
+    height: 136px;
+    opacity: 1;
+}
+
+.order-backed{
+    position: absolute;
+    top: 915px;
+    left: 16px;
+    width: 344px;
+    height: 51px;
+    opacity: 1;
+}
+
+.confident-love-it{
+    position: absolute;
+    top: 970px;
+    left: 16px;
+    width: 344px;
+    height: 80px;
+    opacity: 1;
+
+}
+
+.not-including-return{
+    position: absolute;
+    top: 1050px;
+    left: 16px;
+    width: 344px;
+    height: 18px;
+    opacity: 1;
+}
+
+.slideshow-container {
+    max-width: 375px;
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 375px;
+    height: 439px;
+    /* background: transparent url('img/Component 2 – 1.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+  }
+
+  .sub-slider{
+    position: absolute;
+    top: 145px;
+    left: 16px;
+    width: 344px;
+    height: 40px;
+  }
+
+  .six-pack{
+    position: absolute;
+    top: 120px;
+    left: 8px;
+    width: 360px;
+    height: 202px;
+  }
+
+  .three-pack{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 375px;
+    height: 248px;
+  }
+
+  .one-pack{
+    position: absolute;
+    top: 156px;
+    left: 106px;
+    width: 156px;
+    height: 141px;
+  }
+
+  .best-seller{
+    position: relative;
+    top: 115px;
+    left: 39px;
+    width: 113px;
+    height: 113px;
+  }
+
+  .best-value{
+    position: absolute;
+    top: 112px;
+    left: 39px;
+    width: 113px;
+    height: 113px;
+
+  }
+
+
+  .price{
+    position: absolute;
+    top: 361px;
+    left: 107px;
+    width: 162px;
+    height: 63px;
+  }
+
+  .price-one{
+    position: absolute;
+    top: 361px;
+    left: 107px;
+    width: 140px;
+    height: 63px;
+  }
+
+  .retail-price{
+    position: absolute;
+    top: 425px;
+    left: 116px;
+    width: 144px;
+    height: 23px;
+  }
+
+  .instant-saving{
+    position: absolute;
+    top: 451px;
+    left: 100px;
+    width: 176px;
+    height: 23px;
+  }
+
+  .free-shipping{
+    position: absolute;
+    top: 565px;
+    left: 115px;
+    width: 146px;
+    height: 23px;
+    opacity: 1;
+}
+
+a.buy-now{
+    position: absolute;
+    top: 515px;
+    left: 16px;
+    width: 344px;
+    height: 58px;
+}
